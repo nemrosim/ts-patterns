@@ -1,5 +1,22 @@
 import {Observable} from './Observable'
-import {Observer_A,Observer_B} from './observers'
+import {IObserver} from "./IObserver";
+
+export class Observer_A implements IObserver {
+    public update(subject: Observable): void {
+        if (subject.state < 3) {
+            console.log('ConcreteObserverA: Reacted to the event.');
+        }
+    }
+}
+
+export class Observer_B implements IObserver {
+    public update(subject: Observable): void {
+        if (subject.state === 0 || subject.state >= 2) {
+            console.log('ConcreteObserverB: Reacted to the event.');
+        }
+    }
+}
+
 
 function main() {
     const observable = new Observable();

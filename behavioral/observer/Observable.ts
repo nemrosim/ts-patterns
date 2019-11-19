@@ -15,7 +15,7 @@ export class Observable implements IObservable {
         this.observers.splice(observerIndex, 1);
     }
 
-    public notifyObserver(): void {
+    public notifyObservers(): void {
         for (const observer of this.observers) {
             observer.update(this);
         }
@@ -23,6 +23,6 @@ export class Observable implements IObservable {
 
     public someBusinessLogic(): void {
         this.state = Math.floor(Math.random() * (10 + 1));
-        this.notifyObserver();
+        this.notifyObservers();
     }
 }
