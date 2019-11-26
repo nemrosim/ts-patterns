@@ -5,6 +5,7 @@ interface IComponent {
 class Decorator implements IComponent {
     protected component: IComponent;
 
+
     constructor(component: IComponent) {
         this.component = component;
     }
