@@ -1,15 +1,15 @@
 import {IBuilder} from './IBuilder'
-import {Product_A} from './Product_A'
+import {Car} from './Car'
 
-export class Builder implements IBuilder {
-    private product: Product_A;
+export class CarBuilder implements IBuilder {
+    private product: Car;
 
     constructor() {
         this.reset();
     }
 
     public reset(): void {
-        this.product = new Product_A();
+        this.product = new Car();
     }
 
     public producePart_A(): void {
@@ -24,7 +24,7 @@ export class Builder implements IBuilder {
         this.product.parts.push('PartC1');
     }
 
-    public getProduct(): Product_A {
+    public getProduct(): Car {
         const result = this.product;
         this.reset();
         return result;

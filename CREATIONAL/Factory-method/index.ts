@@ -1,27 +1,37 @@
-import {IProduct} from './IProduct'
-import {Creator} from './Creator'
 
+export interface I_Product {
+    operation(): string;
+}
+
+export abstract class Creator {
+    public abstract factoryMethod(): I_Product;
+
+    public someOperation(): string {
+        const product = this.factoryMethod();
+        return `Creator: The same creator's code has just worked with ${product.operation()}`;
+    }
+}
 
 class ConcreteCreator1 extends Creator {
-    public factoryMethod(): IProduct {
+    public factoryMethod(): I_Product {
         return new ConcreteProduct1();
     }
 }
 
 class ConcreteCreator2 extends Creator {
-    public factoryMethod(): IProduct {
+    public factoryMethod(): I_Product {
         return new ConcreteProduct2();
     }
 }
 
 
-class ConcreteProduct1 implements IProduct {
+class ConcreteProduct1 implements I_Product {
     public operation(): string {
         return '{Result of the ConcreteProduct1}';
     }
 }
 
-class ConcreteProduct2 implements IProduct {
+class ConcreteProduct2 implements I_Product {
     public operation(): string {
         return '{Result of the ConcreteProduct2}';
     }

@@ -1,11 +1,11 @@
 import {Director} from './Director'
-import {Builder} from './Builder'
+import {CarBuilder} from './CarBuilder'
 
 
 
 
 function clientCode(director: Director) {
-    const builder = new Builder();
+    const builder = new CarBuilder();
     director.setBuilder(builder);
 
     console.log('Standard basic product:');

@@ -1,10 +1,10 @@
 {
-  "name": "js-patterns",
+  "name": "ts-patterns",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start factory-method": "ts-node CREATIONAL/factory-method/index.ts",
+    "start factory-method": "ts-node CREATIONAL/Factory-method/index.ts",
     "start abstract-factory": "ts-node CREATIONAL/abstract-factory/index.ts",
     "start builder": "ts-node CREATIONAL/Builder/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"

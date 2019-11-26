@@ -1,9 +1,9 @@
-import {Builder} from './Builder'
+import {IBuilder} from './IBuilder'
 
 export class Director {
-    private builder: Builder;
+    private builder: IBuilder;
 
-    public setBuilder(builder: Builder): void {
+    public setBuilder(builder: IBuilder): void {
         this.builder = builder;
     }
 
