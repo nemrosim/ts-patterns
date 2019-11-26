@@ -10,6 +10,7 @@ class Decorator implements IComponent {
         this.component = component;
     }
 
+
     public operation(): string {
         return this.component.operation();
     }
