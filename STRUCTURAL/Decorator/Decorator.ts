@@ -15,6 +15,7 @@ class Decorator implements IComponent {
     public operation(): string {
         return this.component.operation();
         //asdasdasd
+
     }
 }
 
