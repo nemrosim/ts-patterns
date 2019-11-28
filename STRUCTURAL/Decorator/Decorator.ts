@@ -8,7 +8,7 @@ class Decorator implements IComponent {
 
     constructor(component: IComponent) {
         this.component = component;
-        // asdasdasdsdfs df sdf sdf
+        // asdasdasdsdfs df sdf sdf asd asd
     }
 
 
