@@ -12,11 +12,11 @@ const data = ['a', 'b', 'c', 'd', 'e'];
 /**
  * This will sort the data
  */
-context.realMethod(data);
+context.doSomething(data);
 
 context.setStrategy(new Strategy_Array_Reverse());
 
 /**
  * This will reverse the data
  */
-context.realMethod(data);
+context.doSomething(data);

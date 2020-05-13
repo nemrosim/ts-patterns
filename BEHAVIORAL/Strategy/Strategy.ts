@@ -1,15 +1,15 @@
 interface IStrategy {
-    doSomething(data: string[]): string[];
+    execute(data: string[]): string[];
 }
 
 export class Strategy_Array_Sort implements IStrategy {
-    public doSomething(data: string[]): string[] {
+    public execute(data: string[]): string[] {
         return data.sort();
     }
 }
 
 export class Strategy_Array_Reverse implements IStrategy {
-    public doSomething(data: string[]): string[] {
+    public execute(data: string[]): string[] {
         return data.reverse();
     }
 }
@@ -26,7 +26,7 @@ export class Context {
         this.strategy = strategy;
     }
 
-    public realMethod(data: string[]): string[] {
-        return this.strategy.doSomething(data);
+    public doSomething(data: string[]): string[] {
+        return this.strategy.execute(data);
     }
 }
