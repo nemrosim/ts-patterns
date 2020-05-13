@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd4051c4-6095-4ebf-af75-3b280f787106" name="Default Changelist" comment="">
+    <list default="true" id="fd4051c4-6095-4ebf-af75-3b280f787106" name="Default Changelist" comment="b">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STRUCTURAL/Decorator/Decorator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/STRUCTURAL/Decorator/Decorator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Strategy/Strategy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BEHAVIORAL/Strategy/Strategy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Strategy/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/BEHAVIORAL/Strategy/main.ts" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="rebase-test" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UFg0UXvWWi8BIOT4q3K5Al9XNk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -31,25 +40,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\Nemrosim\Desktop\js-patterns\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Nemrosim\Desktop\js-patterns\behavioral\observer\observers" />
       <recent name="C:\Users\Nemrosim\Desktop\js-patterns\creational-patterns\abstract-factory\products" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.start builder">
     <configuration name="start abstract-factory" type="js.build_tools.npm" nameIsGenerated="true">
@@ -100,11 +97,87 @@
       <updated>1570983516655</updated>
       <workItem from="1570983518424" duration="4899000" />
       <workItem from="1570989968143" duration="7486000" />
+      <workItem from="1574957534710" duration="1307000" />
+      <workItem from="1575020366947" duration="1687000" />
+      <workItem from="1589052038469" duration="2232000" />
+      <workItem from="1589195937874" duration="8353000" />
+      <workItem from="1589350684604" duration="4805000" />
     </task>
+    <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;STRUCTURAL/Decorator/Decorator.ts">
+      <created>1574957655795</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574957655795</updated>
+    </task>
+    <task id="LOCAL-00002" summary="a">
+      <created>1574957690837</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574957690837</updated>
+    </task>
+    <task id="LOCAL-00003" summary="b">
+      <created>1574957717252</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574957717252</updated>
+    </task>
+    <task id="LOCAL-00004" summary="master a">
+      <created>1574957745964</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574957745964</updated>
+    </task>
+    <task id="LOCAL-00005" summary="c">
+      <created>1574957806091</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574957806091</updated>
+    </task>
+    <task id="LOCAL-00006" summary="a">
+      <created>1574957924584</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574957924584</updated>
+    </task>
+    <task id="LOCAL-00007" summary="b">
+      <created>1574957944500</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574957944500</updated>
+    </task>
+    <task id="LOCAL-00008" summary="master a1">
+      <created>1574957974871</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574957974871</updated>
+    </task>
+    <task id="LOCAL-00009" summary="master a2">
+      <created>1574958011246</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574958011246</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Branch 2">
+      <created>1574958049401</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574958049401</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -116,5 +189,43 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;STRUCTURAL/Decorator/Decorator.ts" />
+    <MESSAGE value="master a" />
+    <MESSAGE value="c" />
+    <MESSAGE value="a" />
+    <MESSAGE value="b" />
+    <MESSAGE value="master a1" />
+    <MESSAGE value="master a2" />
+    <MESSAGE value="Branch 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Branch 2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="397" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589207149249">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="397" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1589207149249" />
+    <state x="709" y="457" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589206377724">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="709" y="457" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1589206377724" />
+    <state x="515" y="259" key="#com.intellij.ide.util.MemberChooser" timestamp="1589354324459">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="515" y="259" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1589354324459" />
+    <state x="509" y="444" key="Github.CreateGistDialog" timestamp="1589354583025">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="509" y="444" key="Github.CreateGistDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1589354583025" />
+    <state x="767" y="358" key="RollbackChangesDialog" timestamp="1589206419125">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="767" y="358" key="RollbackChangesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1589206419125" />
+    <state x="554" y="367" width="670" height="676" key="search.everywhere.popup" timestamp="1589197079810">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="554" y="367" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1589197079810" />
   </component>
 </project>
