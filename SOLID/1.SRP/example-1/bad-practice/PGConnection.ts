@@ -1,6 +1,6 @@
 import {User} from "./User";
 
-export class Connection {
+export class PGConnection {
     saveUser(user: User) {
         console.log(`Saving ${user}`);
     }

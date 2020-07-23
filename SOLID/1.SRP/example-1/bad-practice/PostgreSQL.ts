@@ -1,8 +1,7 @@
-import {Connection} from "./Connection";
+import {PGConnection} from "./PGConnection";
 
 export class PostgreSQL {
     connect(): any {
-        console.log('Connecting to database')
-        return new Connection();
+        return new PGConnection();
     }
 }
