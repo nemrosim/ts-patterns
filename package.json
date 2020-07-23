@@ -7,7 +7,8 @@
     "start factory-method": "ts-node CREATIONAL/Factory-method/index.ts",
     "start abstract-factory": "ts-node CREATIONAL/abstract-factory/index.ts",
     "start builder": "ts-node CREATIONAL/Builder/index.ts",
-    "start one": "ts-node SOLID/1.SRP/example-1/bad-practice/main.ts",
+    "start SRP-bad": "ts-node SOLID/1.SRP/example-1/bad-practice/main.ts",
+    "start SRP-good": "ts-node SOLID/1.SRP/example-1/good-practice/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

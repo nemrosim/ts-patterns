@@ -63,7 +63,17 @@
       <recent name="C:\Users\Nemrosim\Desktop\js-patterns\creational-patterns\abstract-factory\products" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start one">
+  <component name="RunManager" selected="npm.start SRP-good">
+    <configuration name="start SRP-good" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start SRP-good" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start abstract-factory" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -109,9 +119,11 @@
       <item itemvalue="npm.start abstract-factory" />
       <item itemvalue="npm.start builder" />
       <item itemvalue="npm.start one" />
+      <item itemvalue="npm.start SRP-good" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start SRP-good" />
         <item itemvalue="npm.start one" />
       </list>
     </recent_temporary>

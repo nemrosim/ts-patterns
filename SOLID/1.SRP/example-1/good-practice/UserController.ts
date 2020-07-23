@@ -16,10 +16,10 @@ export class UserController {
         // 1. Logging
         this.logger.log("Connecting to database");
 
-        // 3. Saving user to database;
+        // 2. Saving user to database;
         this.connection.saveUser(user);
 
-        // 4. Logging
+        // 3. Logging
         this.logger.log("User is saved");
     }
 }
