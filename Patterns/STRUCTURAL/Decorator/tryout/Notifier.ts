@@ -31,7 +31,7 @@ class SMSDecorator extends Decorator{
 class FacebookDecorator extends Decorator{
     doSomething(): void {
         super.doSomething();
-        // do something more
+        console.log('Facebook NOTIFY')
     }
 }
 
@@ -44,13 +44,12 @@ class TelegramDecorator extends Decorator{
 
 
 
-const b = new ConcreteClass();
+const oldImplementation = new ConcreteClass();
 
-const a = new SMSDecorator(b);
-const c = new FacebookDecorator(a);
-const t = new TelegramDecorator(c);
+const sms = new SMSDecorator(oldImplementation);
+const facebook = new FacebookDecorator(sms);
+const telegram = new TelegramDecorator(facebook);
 
-
-t.doSomething();
+telegram.doSomething();
 
 
