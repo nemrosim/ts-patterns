@@ -2,16 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd4051c4-6095-4ebf-af75-3b280f787106" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SOLID/1.SRP/example-0/bad-practice/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SOLID/1.SRP/example-0/good-practice/StoreLogger.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SOLID/1.SRP/example-0/good-practice/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SOLID/3. LSP/AbstractStore.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SOLID/3. LSP/FileStore.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SOLID/3. LSP/SqlStore.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SOLID/3. LSP/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SOLID/4. ISP/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SOLID/1.SRP/example-1/good-practice/UserController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/1.SRP/example-1/good-practice/UserController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/ChainOfResponsibility/ChainOfResponsibility.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/ChainOfResponsibility/ChainOfResponsibility.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/ChainOfResponsibility/CoR-draw-io.png" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/ChainOfResponsibility/CoR-draw-io.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/ChainOfResponsibility/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/ChainOfResponsibility/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/ChainOfResponsibility/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/ChainOfResponsibility/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Command/Command-UML.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/Command/Command-UML.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Command/simple_noState/Command.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/Command/simple_noState/Command.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Command/simple_noState/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/Command/simple_noState/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Command/withState/Command.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/Command/withState/Command.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Command/withState/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/Command/withState/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Observer/IObservable.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/Observer/IObservable.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Observer/IObserver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/Observer/IObserver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Observer/Observable.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/Observer/Observable.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Observer/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/Observer/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Strategy/Strategy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/Strategy/Strategy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Strategy/Strategy_1.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/Strategy/Strategy_1.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Strategy/Strategy_2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/Strategy/Strategy_2.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Strategy/Strategy_3.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/Strategy/Strategy_3.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Strategy/example_2/Person.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/Strategy/example_2/Person.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Strategy/example_2/ValidationStrategy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/Strategy/example_2/ValidationStrategy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEHAVIORAL/Strategy/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/BEHAVIORAL/Strategy/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/Builder/Car.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/Builder/Car.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/Builder/CarBuilder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/Builder/CarBuilder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/Builder/Director.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/Builder/Director.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/Builder/IBuilder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/Builder/IBuilder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/Builder/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/Builder/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/Builder/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/Builder/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/Builder/simple/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/Builder/simple/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/Factory-method/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/Factory-method/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/Factory-method/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/Factory-method/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/Factory-method/tryout/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/Factory-method/tryout/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/Prototype/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/Prototype/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/Simple-factory/Door.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/Simple-factory/Door.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/Simple-factory/Factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/Simple-factory/Factory.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/Simple-factory/IDoor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/Simple-factory/IDoor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/Simple-factory/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/Simple-factory/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/Singleton/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/Singleton/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/abstract-factory/IFactory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/abstract-factory/IFactory.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/abstract-factory/IProductA.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/abstract-factory/IProductA.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/abstract-factory/IProductB.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/abstract-factory/IProductB.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/abstract-factory/factories/Factory_1.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/abstract-factory/factories/Factory_1.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/abstract-factory/factories/Factory_2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/abstract-factory/factories/Factory_2.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/abstract-factory/factories/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/abstract-factory/factories/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/abstract-factory/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/abstract-factory/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/abstract-factory/products/Product_A1.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/abstract-factory/products/Product_A1.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/abstract-factory/products/Product_A2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/abstract-factory/products/Product_A2.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/abstract-factory/products/Product_B1.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/abstract-factory/products/Product_B1.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/abstract-factory/products/Product_B2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/abstract-factory/products/Product_B2.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/abstract-factory/products/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/abstract-factory/products/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CREATIONAL/abstract-factory/tryout/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/CREATIONAL/abstract-factory/tryout/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/5.Dependency inversion/Dependency injection/bad.ts" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/5.Dependency inversion/old/Dependency injection/bad.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/5.Dependency inversion/Dependency injection/good.ts" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/5.Dependency inversion/old/Dependency injection/good.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/5.Dependency inversion/bad.ts" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/5.Dependency inversion/old/bad.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/5.Dependency inversion/good.ts" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/5.Dependency inversion/old/good.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STRUCTURAL/Decorator/Decorator.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/STRUCTURAL/Decorator/Decorator.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STRUCTURAL/Decorator/Decorator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/STRUCTURAL/Decorator/Decorator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STRUCTURAL/Decorator/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/STRUCTURAL/Decorator/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STRUCTURAL/Decorator/UML-Decorator-Draw.io.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/STRUCTURAL/Decorator/UML-Decorator-Draw.io.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STRUCTURAL/Decorator/UML-Decorator.png" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/STRUCTURAL/Decorator/UML-Decorator.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STRUCTURAL/Decorator/tryout/Coffee.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/STRUCTURAL/Decorator/tryout/Coffee.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STRUCTURAL/Decorator/tryout/Notifier.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/STRUCTURAL/Decorator/tryout/Notifier.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STRUCTURAL/Flyweight/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/STRUCTURAL/Flyweight/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STRUCTURAL/Flyweight/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/STRUCTURAL/Flyweight/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +104,16 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Patterns" />
+      <recent name="$PROJECT_DIR$/SOLID/5.Dependency inversion/old" />
       <recent name="$PROJECT_DIR$/SOLID" />
       <recent name="$PROJECT_DIR$/SOLID/1.SRP/example-0/bad-practice" />
       <recent name="$PROJECT_DIR$/SOLID/1.SRP/example-1/good-practice/abstraction" />
-      <recent name="$PROJECT_DIR$/SOLID/1. Single responsibility/example-1/bad-practice" />
-      <recent name="C:\Users\Nemrosim\Desktop\js-patterns\behavioral\observer\observers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/SOLID/1.SRP/example-1/good-practice" />
@@ -151,7 +204,9 @@
       <workItem from="1589393753874" duration="729000" />
       <workItem from="1595533612554" duration="438000" />
       <workItem from="1595540724955" duration="5561000" />
-      <workItem from="1595595501613" duration="4340000" />
+      <workItem from="1595595501613" duration="4346000" />
+      <workItem from="1595625858623" duration="1090000" />
+      <workItem from="1595660788613" duration="1921000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;STRUCTURAL/Decorator/Decorator.ts">
       <created>1574957655795</created>
@@ -265,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595546160251</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="diff">
+      <created>1595619280426</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1595619280426</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +344,6 @@
         <option value="$PROJECT_DIR$/SOLID/1.SRP/example-1/good-practice/UserController.js" />
         <option value="$PROJECT_DIR$/SOLID/1.SRP/example-1/good-practice/User.js" />
         <option value="$PROJECT_DIR$/SOLID/1.SRP/example-1/good-practice/PGConnection.js" />
-        <option value="$PROJECT_DIR$/SOLID/5.Dependency inversion/good.js" />
         <option value="$PROJECT_DIR$/SOLID/1.SRP/example-1/good-practice/ConsoleLogger.js" />
       </list>
     </option>
@@ -317,50 +378,50 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="397" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1589207149249" />
-    <state x="709" y="457" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595533640579">
+    <state x="709" y="457" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595625945586">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="709" y="457" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1595533640579" />
-    <state x="515" y="259" key="#com.intellij.ide.util.MemberChooser" timestamp="1595611540370">
+    <state x="709" y="457" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1595625945586" />
+    <state x="515" y="259" key="#com.intellij.ide.util.MemberChooser" timestamp="1595626162967">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="515" y="259" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1595611540370" />
+    <state x="515" y="259" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1595626162967" />
     <state x="497" y="133" width="860" height="374" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595544916531">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="497" y="133" width="860" height="374" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1595544916531" />
-    <state x="424" y="126" key="CommitChangelistDialog2" timestamp="1595546160167">
+    <state x="424" y="126" key="CommitChangelistDialog2" timestamp="1595619280336">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="424" y="126" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1595546160167" />
+    <state x="424" y="126" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1595619280336" />
     <state x="509" y="444" key="Github.CreateGistDialog" timestamp="1595597313254">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="509" y="444" key="Github.CreateGistDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1595597313254" />
-    <state width="1638" height="238" key="GridCell.Tab.0.bottom" timestamp="1595548006121">
+    <state width="799" height="238" key="GridCell.Tab.0.bottom" timestamp="1595627044065">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="238" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1595548006121" />
-    <state width="1638" height="238" key="GridCell.Tab.0.center" timestamp="1595548006120">
+    <state width="799" height="238" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1595627044065" />
+    <state width="799" height="238" key="GridCell.Tab.0.center" timestamp="1595627044064">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="238" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1595548006120" />
-    <state width="1638" height="238" key="GridCell.Tab.0.left" timestamp="1595548006120">
+    <state width="799" height="238" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1595627044064" />
+    <state width="799" height="238" key="GridCell.Tab.0.left" timestamp="1595627044064">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="238" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1595548006120" />
-    <state width="1638" height="238" key="GridCell.Tab.0.right" timestamp="1595548006120">
+    <state width="799" height="238" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1595627044064" />
+    <state width="799" height="238" key="GridCell.Tab.0.right" timestamp="1595627044065">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="238" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1595548006120" />
+    <state width="799" height="238" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1595627044065" />
     <state x="767" y="358" key="RollbackChangesDialog" timestamp="1589206419125">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="767" y="358" key="RollbackChangesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1589206419125" />
-    <state x="341" y="175" key="SettingsEditor" timestamp="1595546671441">
+    <state x="341" y="175" key="SettingsEditor" timestamp="1595669573882">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1595546671441" />
+    <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1595669573882" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1595546161729">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
