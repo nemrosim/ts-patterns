@@ -1,3 +1,5 @@
+import { Log } from "./main"
+
 export class StoreLogger {
     public saving(id: number): void {
         Log.information(`Saving message ${id}`)

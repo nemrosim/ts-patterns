@@ -1,6 +1,6 @@
 import { StoreLogger } from "./StoreLogger";
 
-class Log {
+export class Log {
     static information(message: string) {
         console.log(`Log.Info: ${message}`);
     }
