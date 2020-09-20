@@ -16,7 +16,7 @@ class File {
 
 class FileStorage {
     private cache = {
-        addOrUpdate: (id, message)=>{
+        addOrUpdate: (id, message) => {
             console.log('Cache. Add or update')
         }
     }

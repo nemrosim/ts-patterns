@@ -1,4 +1,4 @@
-import {ValidationStrategy} from "./ValidationStrategy";
+import { ValidationStrategy } from "./ValidationStrategy";
 
 export interface I_Person {
     getAge(): number;

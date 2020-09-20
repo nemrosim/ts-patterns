@@ -1,7 +1,7 @@
-import {UserController} from "./UserController";
-import {ConsoleLogger} from "./ConsoleLogger";
-import {PostgreSQL} from "./PostgreSQL";
-import {User} from "./User";
+import { UserController } from "./UserController";
+import { ConsoleLogger } from "./ConsoleLogger";
+import { PostgreSQL } from "./PostgreSQL";
+import { User } from "./User";
 
 const logger = new ConsoleLogger();
 const connection = new PostgreSQL().connect();

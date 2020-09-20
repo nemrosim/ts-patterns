@@ -1,4 +1,4 @@
-import {IProductA} from './IProductA'
+import { IProductA } from './IProductA'
 
 export interface IProductB {
     usefulFunctionB(): string;

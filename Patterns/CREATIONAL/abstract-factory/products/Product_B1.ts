@@ -1,5 +1,5 @@
-import {IProductB} from "../IProductB";
-import {IProductA} from "../IProductA";
+import { IProductB } from "../IProductB";
+import { IProductA } from "../IProductA";
 
 export class Product_B1 implements IProductB {
 

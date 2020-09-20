@@ -13,7 +13,7 @@ class Flyweight {
 }
 
 class FlyweightFactory {
-    private flyweights: {[key: string]: Flyweight} = <any>{};
+    private flyweights: { [key: string]: Flyweight } = <any>{};
 
     constructor(initialFlyweights: string[][]) {
         for (const state of initialFlyweights) {

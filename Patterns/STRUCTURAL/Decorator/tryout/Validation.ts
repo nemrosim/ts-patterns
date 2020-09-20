@@ -29,7 +29,6 @@ interface AbstractSavingUserToDatabase {
 }
 
 
-
 class Decorator implements AbstractSavingUserToDatabase {
     abs: AbstractSavingUserToDatabase;
 

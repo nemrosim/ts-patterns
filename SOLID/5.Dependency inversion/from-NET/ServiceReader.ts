@@ -1,7 +1,7 @@
-import {IPersonReader} from "./IPersonReader";
-import {Person} from "./Person";
+import { IPersonReader } from "./IPersonReader";
+import { Person } from "./Person";
 
-class ServiceReader implements IPersonReader{
+class ServiceReader implements IPersonReader {
     getPeople(): Array<Person> {
         return undefined;
     }

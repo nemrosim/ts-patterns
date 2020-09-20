@@ -22,7 +22,7 @@ export class Context {
         this.strategy = strategy;
     }
 
-    setStrategy(strategy: IStrategy){
+    setStrategy(strategy: IStrategy) {
         this.strategy = strategy;
     }
 

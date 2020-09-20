@@ -48,8 +48,8 @@ export class User_Commands {
 
     private isAdded: boolean = false;
 
-    public undo():void{
-        if(this.isAdded){
+    public undo(): void {
+        if (this.isAdded) {
             this.removeUserFromDB();
             this.isAdded = true;
         }

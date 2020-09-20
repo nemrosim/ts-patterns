@@ -1,6 +1,6 @@
-import {User} from "./User";
-import {AbstractLogger} from "./abstraction/AbstractLogger";
-import {AbstractConnection} from "./abstraction/AbstractConnection";
+import { User } from "./User";
+import { AbstractLogger } from "./abstraction/AbstractLogger";
+import { AbstractConnection } from "./abstraction/AbstractConnection";
 
 export class UserController {
     private connection: AbstractConnection;

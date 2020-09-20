@@ -1,4 +1,3 @@
-
 export interface I_Product {
     operation(): string;
 }

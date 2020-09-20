@@ -1,5 +1,5 @@
-import {Observable} from './Observable'
-import {IObserver} from "./IObserver";
+import { Observable } from './Observable'
+import { IObserver } from "./IObserver";
 
 export class Observer_A implements IObserver {
     public update(subject: Observable): void {

@@ -1,4 +1,4 @@
-import {PGConnection} from "./PGConnection";
+import { PGConnection } from "./PGConnection";
 
 export class PostgreSQL {
     connect(): any {

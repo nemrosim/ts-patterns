@@ -1,4 +1,4 @@
-import {StoreLogger} from "./StoreLogger";
+import { StoreLogger } from "./StoreLogger";
 
 class Log {
     static information(message: string) {
@@ -24,7 +24,7 @@ class FileStorage {
     }
 
     private cache = {
-        addOrUpdate: (id, message)=>{
+        addOrUpdate: (id, message) => {
             console.log('Cache. Add or update')
         }
     }

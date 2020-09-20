@@ -1,4 +1,4 @@
-import {IDoor} from './IDoor'
+import { IDoor } from './IDoor'
 
 export class Door implements IDoor {
 

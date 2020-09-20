@@ -1,4 +1,4 @@
-import {Factory} from './Factory'
+import { Factory } from './Factory'
 
 function main() {
     const door = Factory.makeDoor(100, 200);

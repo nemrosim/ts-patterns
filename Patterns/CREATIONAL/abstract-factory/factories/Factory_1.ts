@@ -1,7 +1,7 @@
-import {IFactory} from "../IFactory";
-import {IProductA} from "../IProductA";
-import {Product_A1, Product_B1} from "../products";
-import {IProductB} from "../IProductB";
+import { IFactory } from "../IFactory";
+import { IProductA } from "../IProductA";
+import { Product_A1, Product_B1 } from "../products";
+import { IProductB } from "../IProductB";
 
 export class Factory_1 implements IFactory {
     public createProduct_A(): IProductA {

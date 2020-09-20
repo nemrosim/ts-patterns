@@ -1,5 +1,5 @@
-import {IObservable} from './IObservable'
-import {IObserver} from './IObserver'
+import { IObservable } from './IObservable'
+import { IObserver } from './IObserver'
 
 export class Observable implements IObservable {
 

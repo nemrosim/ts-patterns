@@ -1,8 +1,7 @@
-import {Context,Strategy_Array_Sort,Strategy_Array_Reverse} from './Strategy';
+import { Context, Strategy_Array_Reverse, Strategy_Array_Sort } from './Strategy';
 
 
 //
-
 
 
 const context = new Context(new Strategy_Array_Sort());

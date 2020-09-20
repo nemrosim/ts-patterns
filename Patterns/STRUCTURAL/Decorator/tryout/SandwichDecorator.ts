@@ -1,4 +1,4 @@
-interface AbstractSandwich{
+interface AbstractSandwich {
     make(): string;
 }
 
@@ -9,7 +9,7 @@ class SimpleSandwich implements AbstractSandwich {
     }
 }
 
-class SandwichDecorator implements AbstractSandwich{
+class SandwichDecorator implements AbstractSandwich {
     customSandwich: AbstractSandwich;
 
     constructor(sandwich: AbstractSandwich) {

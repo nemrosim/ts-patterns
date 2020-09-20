@@ -14,9 +14,14 @@ interface Writable {
 // Header Interface
 interface IDatabase {
     getAll();
+
     getOne();
+
     create();
+
     update();
+
     delete();
+
     deleteAll();
 }

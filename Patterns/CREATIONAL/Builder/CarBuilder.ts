@@ -1,5 +1,5 @@
-import {IBuilder} from './IBuilder'
-import {Car} from './Car'
+import { IBuilder } from './IBuilder'
+import { Car } from './Car'
 
 export class CarBuilder implements IBuilder {
     private product: Car;

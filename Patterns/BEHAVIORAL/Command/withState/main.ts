@@ -1,4 +1,4 @@
-import {AddUserToDB_Command, RemoveUserToDB_Command, Switch, User_Commands} from "./Command";
+import { AddUserToDB_Command, RemoveUserToDB_Command, Switch, User_Commands } from "./Command";
 
 
 const userCommands = new User_Commands();

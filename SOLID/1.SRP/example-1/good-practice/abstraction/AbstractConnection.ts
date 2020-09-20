@@ -1,5 +1,5 @@
-import {User} from "../User";
+import { User } from "../User";
 
 export interface AbstractConnection {
-   saveUser(user: User):void;
+    saveUser(user: User): void;
 }

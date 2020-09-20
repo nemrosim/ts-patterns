@@ -1,6 +1,7 @@
-import {Person} from "./Person";
+import { Person } from "./Person";
 
 export interface IPersonReader {
-    getPeople() : Array<Person>
+    getPeople(): Array<Person>
+
     getPerson(id: number): Person;
 }

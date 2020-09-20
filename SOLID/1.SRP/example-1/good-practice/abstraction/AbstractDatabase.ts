@@ -1,4 +1,4 @@
-import {AbstractConnection} from "./AbstractConnection";
+import { AbstractConnection } from "./AbstractConnection";
 
 export interface AbstractDatabase {
     connect(): AbstractConnection

@@ -2,7 +2,7 @@ interface AbstractClass {
     doSomething(): void;
 }
 
-class ConcreteClass implements AbstractClass{
+class ConcreteClass implements AbstractClass {
     doSomething(): void {
         console.log('Base notify');
     }
@@ -21,27 +21,26 @@ class Decorator implements AbstractClass {
     }
 }
 
-class SMSDecorator extends Decorator{
+class SMSDecorator extends Decorator {
     doSomething(): void {
         super.doSomething();
         console.log('SMS NOTIFY')
     }
 }
 
-class FacebookDecorator extends Decorator{
+class FacebookDecorator extends Decorator {
     doSomething(): void {
         super.doSomething();
         console.log('Facebook NOTIFY')
     }
 }
 
-class TelegramDecorator extends Decorator{
+class TelegramDecorator extends Decorator {
     doSomething(): void {
         super.doSomething();
         console.log('Telegram NOTIFY')
     }
 }
-
 
 
 const oldImplementation = new ConcreteClass();

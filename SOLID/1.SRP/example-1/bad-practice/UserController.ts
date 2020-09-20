@@ -1,5 +1,5 @@
-import {PostgreSQL} from "./PostgreSQL";
-import {User} from "./User";
+import { PostgreSQL } from "./PostgreSQL";
+import { User } from "./User";
 
 export class UserController {
     save(): void {

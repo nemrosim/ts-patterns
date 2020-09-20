@@ -1,7 +1,5 @@
-import {Director} from './Director'
-import {CarBuilder} from './CarBuilder'
-
-
+import { Director } from './Director'
+import { CarBuilder } from './CarBuilder'
 
 
 function clientCode(director: Director) {

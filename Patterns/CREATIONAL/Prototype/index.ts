@@ -1,4 +1,3 @@
-
 class Prototype {
     public primitive: any;
     public component: object;
@@ -11,7 +10,7 @@ class Prototype {
 
         clone.circularReference = {
             ...this.circularReference,
-            prototype: { ...this },
+            prototype: {...this},
         };
 
         return clone;

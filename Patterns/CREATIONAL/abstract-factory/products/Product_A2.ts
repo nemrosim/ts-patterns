@@ -1,4 +1,4 @@
-import {IProductA} from "../IProductA";
+import { IProductA } from "../IProductA";
 
 export class Product_A2 implements IProductA {
     public usefulFunctionA(): string {

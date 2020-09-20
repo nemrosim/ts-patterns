@@ -1,4 +1,4 @@
-import {IBuilder} from './IBuilder'
+import { IBuilder } from './IBuilder'
 
 export class Director {
     private builder: IBuilder;
