@@ -58,7 +58,11 @@ class DoublyLinkedListNode<T> {
     }
 }
 
-export class DoublyLinkedList<T> {
+interface Iterable<T> {
+    forEach(callback: () => {}): any;
+}
+
+export class DoublyLinkedList<T> implements Iterable<T> {
     private count: number = 0;
     /**
      * Index "zero"
@@ -221,7 +225,6 @@ export class DoublyLinkedList<T> {
         return true;
     }
 
-
     getAmountOfItems(): number {
         return this.count;
     }
@@ -232,5 +235,18 @@ export class DoublyLinkedList<T> {
 
     getLast(): DoublyLinkedListNode<T> {
         return this.last;
+    }
+
+    forEach(callback: (value: T) => any): void {
+
+        let current = this.first;
+
+        while (current) {
+            callback(current.value);
+
+            current = current.next;
+        }
+
+        return null;
     }
 }

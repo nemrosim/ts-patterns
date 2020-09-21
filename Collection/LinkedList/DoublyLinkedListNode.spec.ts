@@ -303,4 +303,24 @@ describe('remove function', () => {
     });
 })
 
+describe('forEach function', () => {
+    it('should remove a node', () => {
+        const list = new DoublyLinkedList<string>();
+
+        list.addFirst('index 2');
+        list.addFirst('index 1');
+        list.addFirst('index 0');
+
+        const result = []
+        list.forEach((value)=>{
+            result.push(value);
+        })
+
+        let expected = ['index 0', 'index 1', 'index 2'];
+
+        expect(result).toEqual(expected)
+
+    });
+})
+
 
