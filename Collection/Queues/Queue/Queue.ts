@@ -1,16 +1,24 @@
-import { DoublyEndedQueue } from "../Queues/DoublyEndedQueue/DoublyEndedQueue";
+import { DoublyEndedQueue } from "../DoublyEndedQueue/DoublyEndedQueue";
 
 /**
- * A Last-in, First-out (LIFO) data container
+ * A first-in, First-out (FIFO) container.
+ *
+ * "Queuing" in a line
+ * Enqueue at the end of line
+ *
+ * First is "head"
+ * Last is "tail"
+ *
+ * The head of the line in "dequeued"
  */
-class Stack<T> {
+class Queue<T> {
     private doublyEndedQueue = new DoublyEndedQueue<T>();
 
-    push(value: T): void {
-        this.doublyEndedQueue.enqueueHead(value);
+    enqueue(value: T) {
+        this.doublyEndedQueue.enqueueTail(value);
     }
 
-    pop(): T {
+    dequeue(): T {
         return this.doublyEndedQueue.dequeueHead();
     }
 
