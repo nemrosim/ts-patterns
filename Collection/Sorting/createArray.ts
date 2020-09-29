@@ -11,3 +11,8 @@ export const createArrayAndWriteToFile = async (path:string, maxValue: number) =
 export const readArrayFromFile = async (path:string) => {
     return fs.readFile(path, 'utf8');
 }
+
+export const readAndParseArray = async (path:string) => {
+    const data =  await fs.readFile(path, 'utf8');
+    return JSON.parse(data);
+}
